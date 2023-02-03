@@ -56,3 +56,49 @@ header li:last-child {
 falta hacer los enlaces de ancla */
 
 /* fin header */
+
+
+
+
+/* media queries */
+
+@media(min-width: 1200px) {
+
+    header {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    header figure {
+        width: 25%;
+
+    }
+
+    header hr {
+        display: none;
+    }
+
+    header nav ul li {
+
+        display: inline;
+
+    }
+
+    header nav {
+        width: 40%;
+        padding: 1% 0%;
+
+    }
+
+    header nav ul li a {
+        font-size: 1em;
+
+    }
+
+    header nav ul li:last-child {
+        padding-right: 2.5%;
+    }
+
+
+
+}
