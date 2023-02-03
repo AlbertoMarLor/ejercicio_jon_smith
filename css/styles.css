@@ -62,15 +62,14 @@ falta hacer los enlaces de ancla */
 /* inicio hero */
 
 .container {
-
-    max-width: 80%
+    margin: 0 auto;
+    max-width: 700px
 }
 
 .hero {
     background-image: url(../images/intro-bg.jpg);
     background-size: cover;
     padding-bottom: 25%;
-
     /* revisar la posicion de la imagen de fondo */
 }
 
