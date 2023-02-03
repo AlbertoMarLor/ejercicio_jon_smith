@@ -12,6 +12,8 @@
     box-sizing: border-box;
 }
 
+
+
 /* inicio header */
 
 header {
@@ -56,6 +58,57 @@ header li:last-child {
 falta hacer los enlaces de ancla */
 
 /* fin header */
+
+/* inicio hero */
+
+.container {
+
+    max-width: 80%
+}
+
+.hero {
+    background-image: url(../images/intro-bg.jpg);
+    background-size: cover;
+    padding-bottom: 25%;
+
+    /* revisar la posicion de la imagen de fondo */
+}
+
+.hero h2 {
+    font-family: var(--fuentemontse);
+    font-weight: bold;
+    font-size: 2.5em;
+    color: rgba(128, 128, 128, 0.651);
+    padding-top: 40%;
+    padding-bottom: 5%;
+}
+
+
+h1 {
+    font-size: 6em;
+    color: white;
+    font-family: var(--fuentelibre);
+    font-weight: bold;
+}
+
+.hero i {
+    font-size: 2em;
+    color: white;
+    position: absolute;
+    bottom: 4%;
+    right: 8%;
+}
+
+
+/* falta poner el enlace de ancla */
+
+
+/* fin hero */
+
+
+
+
+
 
 
 
