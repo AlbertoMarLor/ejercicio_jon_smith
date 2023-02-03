@@ -1,5 +1,58 @@
 @import url(reset.css);
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&family=Montserrat:ital,wght@0,400;0,700;1,400&display=swap');
+
+
+:root {
+    --fuentemontse: 'Montserrat', sans-serif;
+    --fuentelibre: 'Libre Baskerville', serif;
+}
+
 
 * {
     box-sizing: border-box;
 }
+
+/* inicio header */
+
+header {
+    background-color: black;
+
+}
+
+header figure img {
+    width: 12%;
+    margin: 3% 0 5% 3%;
+
+}
+
+header hr {
+    background-color: white;
+    width: 95%;
+}
+
+header ul {
+    text-align: center;
+
+}
+
+header li {
+    padding: 2.5%;
+}
+
+header li a {
+    text-decoration: none;
+    font-size: 2em;
+    color: rgb(156, 151, 151);
+    font-family: var(--fuentemontse);
+    font-weight: bold;
+
+}
+
+header li:last-child {
+    padding-bottom: 12%;
+}
+
+/* 
+falta hacer los enlaces de ancla */
+
+/* fin header */
