@@ -325,6 +325,15 @@ h5 {
     }
 
 
+    #section1 {
+        padding: 0 100px 0 200px
+    }
+
+    #section2 {
+        padding: 0 200px 0 100px;
+
+    }
+
     #section1 h2 {
 
         font-size: 100%;
@@ -351,6 +360,11 @@ h5 {
     #section1 h5 {
         text-align: left;
         font-size: 120%;
+
+    }
+
+    #section2 h4 {
+        font-size: 100%;
 
     }
 
