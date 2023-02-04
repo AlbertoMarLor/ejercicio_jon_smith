@@ -68,6 +68,8 @@ falta hacer los enlaces de ancla */
 
 .hero {
     background-image: url(../images/intro-bg.jpg);
+    background-color: rgba(37, 12, 2, 0.527);
+    background-blend-mode: screen;
     background-size: cover;
     padding-bottom: 25%;
     background-position: 50% 50%;
@@ -81,6 +83,7 @@ falta hacer los enlaces de ancla */
     color: rgba(128, 128, 128, 0.651);
     padding-top: 40%;
     padding-bottom: 5%;
+    text-align: left;
 }
 
 
@@ -139,13 +142,118 @@ footer p {
 
 }
 
-
-
-
-
-
-
 /* fin footer */
+
+/* inicio section 1 y 2 */
+
+#section1 {
+    background-image: url(../images/profile-bg.jpg);
+    background-size: cover;
+    background-color: rgba(255, 255, 255, 0.671);
+    background-blend-mode: screen;
+
+}
+
+h2 {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 1.5em;
+    color: rgb(59, 12, 12);
+    font-family: var(--fuentemontse);
+    font-weight: bold;
+    padding-top: 70px;
+}
+
+h3 {
+    font-size: 3em;
+    text-align: center;
+    font-family: var(--fuentelibre);
+    padding: 15px 0px;
+    font-weight: bold;
+}
+
+
+
+
+h5 {
+
+    font-size: 1.75em;
+    font-family: var(--fuentemontse);
+    font-weight: bold;
+    padding-top: 15px;
+    text-align: center;
+    line-height: 150%;
+    color: gray;
+
+
+}
+
+#section1 h5 {
+
+    color: rgb(56, 55, 55);
+
+}
+
+#section1 p {
+    padding-top: 30px;
+    font-size: 1.5em;
+    color: rgb(56, 55, 55);
+    line-height: 150%;
+
+}
+
+#section1 p:last-child {
+    padding-bottom: 50px;
+
+}
+
+
+#section2 i {
+    font-size: 450%;
+    color: rgb(65, 2, 2);
+
+
+}
+
+#section2 h4 {
+    font-weight: bold;
+    font-family: var(--fuentemontse);
+    font-size: 1.5em;
+    padding-bottom: 10px;
+
+
+}
+
+#section2 article {
+    display: flex;
+    padding-top: 5%;
+
+}
+
+.parrafos {
+    margin-left: 30px;
+
+}
+
+
+#section2 p {
+    font-family: var(--fuentelibre);
+    font-size: 1.25em;
+    color: rgb(94, 93, 93);
+    line-height: 150%;
+}
+
+#section2 article:last-child p {
+
+    margin-bottom: 20%;
+
+
+}
+
+
+
+/* fin section 1 y 2 */
+
 
 /* media queries */
 
@@ -187,9 +295,11 @@ footer p {
     }
 
     .container {
-
+        margin: 0 auto;
         max-width: 1200px
     }
+
+
 
     .hero h2 {
 
@@ -207,22 +317,85 @@ footer p {
         font-size: 100%;
     }
 
-    footer i {
+    .union {
+
+        display: flex;
+
+
+    }
+
+
+    #section1 {
+        padding: 0 100px 0 200px
+    }
+
+    #section2 {
+        padding: 0 200px 0 100px;
+
+    }
+
+    #section1 h2 {
+
+        font-size: 100%;
+        text-align: left;
+
+    }
+
+    #section2 h2 {
+        font-size: 100%;
+        text-align: left;
+    }
+
+    #section1 h3 {
         font-size: 200%;
-        padding: 10px;
-        padding-top: 50px;
+        text-align: left;
+    }
+
+    #section2 h3 {
+        font-size: 200%;
+        text-align: left;
 
     }
 
-    footer p {
-        color: rgba(128, 128, 128, 0.459);
-        font-size: 1em;
-        font-family: var(--fuentemontse);
-        font-weight: bold;
-        margin-top: 40px;
-        text-align: center;
-        padding-bottom: 70px;
+    #section1 h5 {
+        text-align: left;
+        font-size: 120%;
 
     }
+
+    #section2 h4 {
+        font-size: 100%;
+
+    }
+
+    #section2 h5 {
+        text-align: left;
+        font-size: 120%;
+    }
+
+    #section2 i {
+
+        font-size: 275%;
+
+    }
+
+}
+
+
+footer i {
+    font-size: 200%;
+    padding: 10px;
+    padding-top: 50px;
+
+}
+
+footer p {
+    color: rgba(128, 128, 128, 0.459);
+    font-size: 1em;
+    font-family: var(--fuentemontse);
+    font-weight: bold;
+    margin-top: 40px;
+    text-align: center;
+    padding-bottom: 70px;
 
 }
