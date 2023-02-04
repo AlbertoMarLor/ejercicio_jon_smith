@@ -288,6 +288,43 @@ h5 {
 
 /* fin section 3 */
 
+/* inicio section 4 */
+
+#section4 i {
+
+    font-size: 250%;
+    color: rgb(65, 2, 2);
+
+}
+
+.fechas {
+    font-family: var(--fuentemontse);
+    color: rgb(143, 138, 138);
+    font-size: 1.25em;
+    font-weight: bold;
+
+}
+
+.experience h3 {
+    font-family: var(--fuentemontse);
+    font-weight: bold;
+    font-size: 24px;
+    text-align: left;
+
+}
+
+#section4 h4 {
+    font-family: var(--fuentemontse);
+    font-weight: bold;
+    font-size: 1.25em;
+
+}
+
+#section4 p:last-child {
+
+    font-size: 1.25em;
+
+}
 
 
 
@@ -295,7 +332,7 @@ h5 {
 
 
 
-
+/* fin section 4 */
 
 /* media queries */
 
