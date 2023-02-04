@@ -254,6 +254,48 @@ h5 {
 
 /* fin section 1 y 2 */
 
+/* inicio section 3 */
+
+
+#section3 {
+
+    background-image: url(../images/skills-bg.jpg);
+    background-color: rgba(0, 0, 0, 0.575);
+    background-blend-mode: screen;
+    background-image: cover;
+    background-position: 50% 50%;
+}
+
+#section3 h2 {
+
+    color: rgb(119, 68, 26);
+    padding-top: 30%;
+}
+
+
+#section3 h3 {
+
+    color: white;
+}
+
+
+#section3 h5 {
+
+    padding-bottom: 70%;
+
+}
+
+
+/* fin section 3 */
+
+
+
+
+
+
+
+
+
 
 /* media queries */
 
@@ -321,7 +363,6 @@ h5 {
 
         display: flex;
 
-
     }
 
 
@@ -379,23 +420,45 @@ h5 {
 
     }
 
-}
+    #section3 h2 {
+        padding-top: 15%;
+        text-align: left;
+    }
 
 
-footer i {
-    font-size: 200%;
-    padding: 10px;
-    padding-top: 50px;
+    #section3 h3 {
 
-}
+        text-align: left;
+    }
 
-footer p {
-    color: rgba(128, 128, 128, 0.459);
-    font-size: 1em;
-    font-family: var(--fuentemontse);
-    font-weight: bold;
-    margin-top: 40px;
-    text-align: center;
-    padding-bottom: 70px;
 
+    #section3 h5 {
+
+        text-align: left;
+        width: 65%;
+        font-size: 125%;
+    }
+
+
+
+
+
+
+    footer i {
+        font-size: 200%;
+        padding: 10px;
+        padding-top: 50px;
+
+    }
+
+    footer p {
+        color: rgba(128, 128, 128, 0.459);
+        font-size: 1em;
+        font-family: var(--fuentemontse);
+        font-weight: bold;
+        margin-top: 40px;
+        text-align: center;
+        padding-bottom: 70px;
+
+    }
 }
