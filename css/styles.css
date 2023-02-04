@@ -12,6 +12,8 @@
     box-sizing: border-box;
 }
 
+
+
 /* inicio header */
 
 header {
@@ -57,6 +59,57 @@ falta hacer los enlaces de ancla */
 
 /* fin header */
 
+/* inicio hero */
+
+.container {
+    margin: 0 auto;
+    max-width: 700px
+}
+
+.hero {
+    background-image: url(../images/intro-bg.jpg);
+    background-size: cover;
+    padding-bottom: 25%;
+    background-position: 50% 50%;
+    /* revisar la posicion de la imagen de fondo */
+}
+
+.hero h2 {
+    font-family: var(--fuentemontse);
+    font-weight: bold;
+    font-size: 2.5em;
+    color: rgba(128, 128, 128, 0.651);
+    padding-top: 40%;
+    padding-bottom: 5%;
+}
+
+
+h1 {
+    font-size: 6em;
+    color: white;
+    font-family: var(--fuentelibre);
+    font-weight: bold;
+}
+
+.hero i {
+    font-size: 2em;
+    color: white;
+    position: absolute;
+    bottom: 4%;
+    right: 8%;
+}
+
+
+/* falta poner el enlace de ancla */
+
+
+/* fin hero */
+
+
+
+
+
+
 
 
 
@@ -99,6 +152,25 @@ falta hacer los enlaces de ancla */
         padding-right: 2.5%;
     }
 
+    .container {
 
+        max-width: 1200px
+    }
+
+    .hero h2 {
+
+        font-size: 1.5em;
+        letter-spacing: 1px;
+    }
+
+    h1 {
+        font-size: 3em;
+    }
+
+    .hero i {
+        bottom: -19%;
+        right: 3%;
+        font-size: 100%;
+    }
 
 }
