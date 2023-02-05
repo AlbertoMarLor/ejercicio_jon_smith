@@ -288,14 +288,93 @@ h5 {
 
 /* fin section 3 */
 
+/* inicio section 4 */
 
+#section4 i {
 
+    font-size: 250%;
+    color: rgb(65, 2, 2);
 
+}
 
+.fechas {
+    font-family: var(--fuentemontse);
+    color: rgb(143, 138, 138);
+    font-size: 1.25em;
+    font-weight: bold;
+    margin-bottom: -1%;
 
+}
 
+.experience h3 {
+    font-family: var(--fuentemontse);
+    font-weight: bold;
+    font-size: 24px;
+    text-align: left;
 
+}
 
+.education h3 {
+    font-family: var(--fuentemontse);
+    font-weight: bold;
+    font-size: 24px;
+    text-align: left;
+
+}
+
+#section4 h4 {
+    font-family: var(--fuentemontse);
+    font-weight: bold;
+    font-size: 1.25em;
+    margin-top: -2%;
+
+}
+
+#section4 p:last-child {
+    margin-top: 2.5%;
+    font-size: 1em;
+    color: rgb(80, 78, 78);
+    font-family: var(--fuentelibre);
+    line-height: 150%;
+
+}
+
+#section4 .parrafos {
+    margin-top: -5%;
+    margin-left: 10%;
+    margin-bottom: 5%;
+
+}
+
+#section4 .experience h2 {
+    padding-bottom: 7.5%;
+
+}
+
+#section4 .education h2 {
+    padding-bottom: 7.5%;
+
+}
+
+#section4 h5 {
+
+    padding-bottom: 15%;
+}
+
+#section4 hr {
+
+    width: 50%;
+
+}
+
+.education article:last-child p:last-child {
+    margin-bottom: 20%;
+
+}
+
+/* falta la linea que hay entre los iconos de la seccion 4 */
+
+/* fin section 4 */
 
 /* media queries */
 
@@ -439,7 +518,44 @@ h5 {
         font-size: 125%;
     }
 
+    #section4 .union {
+        flex-wrap: wrap;
+    }
 
+    .experience {
+
+        width: 50%;
+    }
+
+    .education {
+
+        width: 50%;
+
+    }
+
+    .experience h2 {
+        text-align: left;
+        font-size: 1.25em;
+        padding-left: 12.5%;
+    }
+
+    .education h2 {
+        text-align: left;
+        font-size: 1.25em;
+        padding-left: 12.5%;
+    }
+
+    #section4 .parrafos {
+        padding-left: 2.5%;
+
+    }
+
+    #section4 h5 {
+
+        padding-bottom: 5%;
+    }
+
+    /* faltan algunas lineas  */
 
 
 
