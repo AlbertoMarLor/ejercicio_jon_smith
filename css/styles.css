@@ -376,6 +376,73 @@ h5 {
 
 /* fin section 4 */
 
+/* inicio section 5 */
+
+#section5 {
+    background-color: rgb(228, 227, 227);
+
+}
+
+#section5 h4 {
+    padding-bottom: 2.5%;
+    letter-spacing: 3px;
+}
+
+
+
+#section5 figure {
+    margin: 25% 0;
+}
+
+#section5 img {
+
+    width: 700px;
+    margin: 0 auto;
+
+}
+
+#section5>hr {
+    display: none;
+}
+
+.numeros {
+
+    background-color: rgb(8, 4, 1);
+    color: white;
+    text-align: center;
+    font-size: 1.5em;
+    font-family: var(--fuentemontse);
+    font-weight: bold;
+    padding: 7.5%;
+}
+
+#section5 p {
+
+    font-size: 2em;
+    color: rgb(119, 68, 26);
+    padding-bottom: 5%;
+    letter-spacing: 2px;
+
+}
+
+#section5 hr {
+
+    width: 13%;
+
+}
+
+/* .numeros hr {
+    display: block;
+
+} */
+
+.numeros h4 {}
+
+
+
+
+/* fin section 5 */
+
 /* media queries */
 
 @media(min-width: 1200px) {
@@ -553,6 +620,48 @@ h5 {
     #section4 h5 {
 
         padding-bottom: 5%;
+    }
+
+    #section5 hr {
+        display: block;
+        margin-top: 7.5%;
+        opacity: 0.25;
+        width: 40px;
+        margin-bottom: -17.5%;
+    }
+
+    #section5 h5 {
+
+        font-size: 1.25em;
+
+    }
+
+    #section5 figure {
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+
+    #section5 img {
+
+        width: 600px;
+
+    }
+
+    .flex {
+
+        display: flex;
+        justify-content: space-around;
+    }
+
+    #section5 h4 {
+        font-size: 0.5em;
+
+    }
+
+    #section5 p {
+        padding-top: 22.5%;
+
     }
 
     /* faltan algunas lineas  */
